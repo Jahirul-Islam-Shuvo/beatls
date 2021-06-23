@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Oswald:200,300,400,500,600,700&display=swap');
+/****************************
+		Google Fonts
+*****************************/
+*{
+	margin: 0px;
+	padding: 0px;
+	outline: 0px;
+}
+body{
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+}
+ul,ol{
+	list-style: none;
+}
+a,a:hover{
+	text-decoration: none;
+}
+img{
+	vertical-align: middle;
+}
+h1,h2,h3,h4,h5,h6,a,p,img,ul,ol,li,.navbar{
+	margin: 0px;
+	padding: 0px;
+}
+.common-heading{
+	padding: 60px 0px 40px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	font-weight: 500;
+	color: #353535;
+}
+.common-heading .ab-img{
+	margin-left: -40px;
+	margin-top: -45px;
+	width: 71px;
+}
+/****************************
+		Common CSS End
+*****************************/
+.top-social-ber{
+	padding: 10px 0px;
+	background: #0872b9;
+	color: #e7e7e7;
+	font-size: 14px;
+}
+.top-social-ber .social-icon a{
+	color: #fff;
+	margin-left: 25px;
+	transition: all linear .3s;
+}
+.top-social-ber .social-icon a:hover{
+	color: #353535;
+}
+/*Top Social Ber End*/
+
+.navbar-expand-lg .navbar-nav .nav-link{
+	padding-right: 0px;
+    padding-left: 0px;
+}
+.main-menu {
+	padding: 20px 0px;
+}
+.main-menu .nav-item{
+	margin-left: 15px;
+}
+.main-menu .nav-item .nav-link{
+	color: #353535;
+	font-size: 14px;
+	transition: all linear .3s;
+}
+.main-menu .nav-item.active .nav-link,
+.main-menu .nav-item .nav-link:focus,
+.main-menu .nav-item .nav-link:hover{
+	color: #0872b9;
+}
+/****************************
+		Header Part End
+*****************************/
+.slider-part{
+	background: url('../images/slider.png') no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.slider-overlay{
+	background: rgba(0,0,0,0.6);
+	padding: 90px 0px;
+}
+.slider-content{
+	color: #fff;
+}
+.slider-content h2{
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+}
+.slider-content h1{
+	font-size: 40px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	padding-bottom: 19px;
+}
+.slider-content p{
+	padding-bottom: 19px;
+	line-height: 22px;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+.slider-content .s-btn a{
+	color: #fff;
+	padding: 10px 20px;
+	display: inline-block;
+	border: 1px solid #fff;
+	margin-left: 20px;
+	transition: all linear .3s;
+}
+.slider-content .s-btn a:hover{
+	background: #0872b9;
+	border: 1px solid #0872b9;
+}
+/****************************
+		Slider Part End
+*****************************/
+.ab-content{
+	padding: 33px 0px 0px;
+}
+.ab-content p{
+	line-height: 22px;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+.ab-content .p1{
+	padding-bottom: 35px; 
+}
+/****************************
+		About Part End
+*****************************/
+/****************************
+		Service part start
+*****************************/
+.service-part{}
+.service-part .common-heading .service-img{
+	margin-left: -84px;
+	margin-top: -45px;
+	width: 70px;
+}
+.service-part .service-item{
+	position: relative;
+	transition: all linear .3s;
+
+}
+.service-part .service-item .service-icon{
+	background: #f1f1f1;
+	height: 85px;
+	width: 85px;
+	border-radius: 50%;
+	border: 5px solid #fff;
+	margin: 0 auto;
+	position: absolute;
+	top: -47px;
+	left: 50%;
+	transform: translateX(-50%);
+	transition: all linear .3s;
+	
+}
+.service-part .service-item .service-icon .service-icon-2{
+	background: #f1f1f1;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	margin: 2px auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all linear .3s;
+	
+
+}
+.service-part .service-item .service-content{
+	padding:50px 20px 20px 20px;
+	background: #f1f1f1;
+}
+.service-part .service-item .service-content h4{
+	font-size: 16px;
+	font-weight: 500;
+	font-family:'Oswald', sans-serif;
+}.service-part .service-item .service-content p{
+	font-size: 13px;
+	line-height: 26px;
+	padding: 20px 20px;
+	
+}
+.service-item:hover{
+	box-shadow: 0px 0px 5px #353535;
+}
+.service-item:hover .service-icon .service-icon-2,
+.service-item:hover .service-icon{
+	background: #5bc5f4;
+}
+/****************************
+		Service part End
+*****************************/
+/****************************
+		Portfolio part start
+*****************************/
+.portfolio-part{}
+.portfolio-part .portfolio-img{
+	margin-top: -45px;
+	margin-left: -97px;
+	width: 75px;
+}
+.portfolio-item{
+	position: relative;
+}
+.portfolio-item .portfolio-overlay{
+	height: 0%;
+	width: 100%;
+	background: rgba(0,0,0,.5);
+	position: absolute;
+	top: 0px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+   transition: all linear .3s;
+}
+.portfolio-item .portfolio-overlay a{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background: #5bc5f4;
+	border: 1px solid transparent;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	transition: all linear .3s;
+
+}
+.portfolio-item .portfolio-overlay a:hover{
+	background: transparent;
+	border: 1px solid #fff;
+	transform: rotate(360deg);
+}
+.portfolio-item:hover .portfolio-overlay{
+	opacity: 1;
+	height: 100%;
+}
+.mt-30{
+	margin-top: 30px;
+}
+/****************************
+		Portfolio part end
+*****************************/
+/****************************
+		Team part start
+*****************************/
+.team-part{}
+.team-part .team-img{
+	margin-top: -45px;
+	margin-left: -45px;
+}
+.team-item{
+	position: relative;
+	transition: all linear .3s;
+}
+.team-item .team-overlay{
+	height: 100%;
+	width: 0%;
+	background: rgba(0,0,0,.5);
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: all linear .3s;
+	
+	
+}
+.team-part .team-icon{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	transition: all linear .3s;
+
+}
+.team-item:hover{
+	box-shadow: 0px 0px 5px #353535;}
+.team-item:hover .team-overlay{
+	width: 30%; 
+    opacity: 1;
+}
+.team-icon:hover{
+	background: #5bc5f4;
+	border: 1px solid #5bc5f4; 
+}
+.team-content h4{
+	padding: 10px 0px 0px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	color: #353535;
+}
+.team-content span{
+	padding: 0px 0px;
+	font-size: 13px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+}
+
+/****************************
+		Team part End
+*****************************/
+/****************************
+		Testimonial part start
+*****************************/
+.testimonial-part{}
+.testimonial-part .testimonial-img{
+	margin-left: -77px;
+	margin-top: -45px;
+
+}
+.testi-img img{
+	margin-bottom: 50px;
+
+}
+.testimonial-content{
+	padding: 20px;
+	background: #f1f1f1;
+	position: relative;
+}
+.testimonial-content .testimonial-shap{
+	height: 45px;
+	width: 45px;
+	background: #f1f1f1;
+	position: absolute;
+	top: -22px;
+	left: 50%;
+	transform: translateX(-50%) rotate(45deg);
+}
+.testimonial-con h4{
+	padding-top: 20px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	color: #353535;
+	padding-bottom: 10px;
+}
+
+.testimonial-con h6{
+	padding-bottom: 20px;
+	padding-top: 10px;
+    font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	color: #747474;}
+.testi-paragraph{
+	font-size: 13px;
+	font-family: 'Oswald';
+	font-weight: 400;
+	word-spacing: 3px;
+	padding: 0px 20px 20px;
+	color: #747474;
+}
+/****************************
+   Testimonial part start
+*****************************/
+/****************************
+	Contact part start
+*****************************/
+.contact-part{
+	background: #353535;
+	color: #fff;
+	padding: 20px 0px 0px;
+	margin-top: 60px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.contact-part .beatls img{
+padding-bottom: 30px;
+}
+.contact-part h4{
+	font-size: 16px;
+	font-family: 'Oswald';
+	font-weight: 500;
+	padding: 30px 0px;
+
+}
+.important-link a{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	transition: all linear .3s;
+	padding-bottom: 25px;
+
+}
+.important-link a:hover{
+	color: #59bee8;
+}
+.icon-shap{
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	background:#5bc5f4; 
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flickr-part{padding-bottom: 20px;}
+.flickr-part .mt-30{
+	padding: 0px 0px 30px;
+	margin-top: 0px;
+}
+
+.flickr-img{
+	padding-top: 0px;
+}
+footer{
+	background: #555555;
+}
+.footer-part {
+	padding: 20px 0px;
+}
